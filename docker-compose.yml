@@ -8,7 +8,7 @@ services:
        MYSQL_ROOT_PASSWORD: admin
        MYSQL_DATABASE: arun_aqua
     volumes:
-      - ./mysql_data_new:/var/lib/mysql
+      - mysql_data_new:/var/lib/mysql
     networks:
       - two-tier
     ports:
