@@ -1,0 +1,5 @@
+mysql_data_new/
+.git
+.gitignore
+Dockerfile
+Jenkinsfile
