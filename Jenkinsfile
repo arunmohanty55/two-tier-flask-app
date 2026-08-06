@@ -8,7 +8,7 @@ pipeline {
 
             steps {
 
-                echo 'my code'
+                echo 'my code will deploy'
 
                 git url:"https://github.com/arunmohanty55/two-tier-flask-app.git",
                     branch:"master"
