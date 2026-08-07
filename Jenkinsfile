@@ -14,8 +14,11 @@ pipeline {
                     branch:"master"
             }
         }
-
-
+        stage ("File syatem scan"){
+            steps {
+                sh "trivy fs . -o result.json"
+            } 
+         }
         stage('build') {
 
             steps {
